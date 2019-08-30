@@ -49,8 +49,6 @@ h3{
 
 /* Features & Services */
 
-
-
 .product-img{
     width: 80%;
     display: block;
@@ -59,10 +57,44 @@ h3{
 
 .feature-cont{
     background-color: #EAE3D0;
-    padding-top: 5px;
-    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 5px solid white;
+    border-radius: 15px;
+}
 
+.btn{
+    color: #A19B4F;
+}
+
+.feature-cont .btn{
+    border: 1px solid #78743B;
+}
+
+.services-cont .btn{
+    border: 1px solid #78743B;
+    background-color: #EAE3D0;
 }
 
 
+/* Footer */
 
+.footer{
+    background-color: #EAE3D0;
+    margin-top: 50px;
+    height: 10em;
+    padding-top: 3em;
+}
+
+.footer .pet-logo{
+    width: 25%;
+}
+
+.social-media{
+    
+    margin: 0 auto;
+}
+
+h4{
+    display: inline;
+}
