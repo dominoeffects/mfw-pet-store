@@ -1,11 +1,9 @@
 /* Navbar */
-
 h3{
     font-family: 'Lobster Two', cursive;
     font-weight: 700;
     font-size: 2.75em;
 }
-
 .navbar-text{
     color: #A19B4F;
 }
@@ -15,39 +13,40 @@ h3{
 }
 
 .pet-logo{
-    width: 10%; 
+    width: 10%;
 }
 
 .nav-pills li.active a, .nav-pills li.active a:focus, .nav-pills li.active a:hover{
-  background-color: #EAE3D0;
-  color:  #A19B4F;
-  border: 1px solid #A19B4F; 
+    background-color: #EAE3D0;
+    color: #A19B4F;
+    border: 1px solid #a19b4f;
 }
 
-.nav-pills li.not-active a, .nav-pills li.active a:focus, .nav-pills li.not-active a:hover{
+.nav-pills li.not-active a, .nav-pills li.not-active a:focus, .nav-pills li.not-active a:hover{
     background-color: white;
     color: #A19B4F;
-    border: 1px solid #A19B4F; 
+    border: 1px solid #a19b4f;
 }
+
 
 /* Jumbotron */
-
-.jumbo-text{
-    font-family: 'Roboto', sans-serif;
-    font-weight:  300;
-    color: white;
-    text-align: center;
-    font-size: 1.75em;
-}
-
 .jumbotron{
     background-image: url(/img/hero.jpg);
     background-size: cover;
     height: 33em;
-
 }
 
-/* Features & Services */
+.jumbo-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    font-size: 1.75em;
+    text-transform: uppercase;
+}
+
+
+/* Featured & Services */
 
 .product-img{
     width: 80%;
@@ -55,8 +54,8 @@ h3{
     margin: 0 auto;
 }
 
-.feature-cont{
-    background-color: #EAE3D0;
+.feature-container{
+    background-color: #eae3d0;
     padding-top: 10px;
     padding-bottom: 10px;
     border: 5px solid white;
@@ -67,20 +66,19 @@ h3{
     color: #A19B4F;
 }
 
-.feature-cont .btn{
-    border: 1px solid #78743B;
-}
+.feature-container .btn{
+    border: 1px solid #78743b;
+} 
 
-.services-cont .btn{
-    border: 1px solid #78743B;
-    background-color: #EAE3D0;
-}
+.services-containers .btn{
+    border: 1px solid #78743b;
+    background-color: #eae3d0;
 
+}
 
 /* Footer */
-
 .footer{
-    background-color: #EAE3D0;
+    background-color: #eae3d0;
     margin-top: 50px;
     height: 10em;
     padding-top: 3em;
@@ -91,7 +89,6 @@ h3{
 }
 
 .social-media{
-    
     margin: 0 auto;
 }
 
